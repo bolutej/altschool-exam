@@ -3,16 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './style.css';
 import {BrowserRouter } from 'react-router-dom'
 import App from './App';
-// import { HelmetProvider } from 'react-helmet-async';
+import { HelmetProvider } from 'react-helmet-async';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-    {/* <HelmetProvider> */}
+    <HelmetProvider>
     <App />
-    {/* </HelmetProvider> */}
+    </HelmetProvider>
     </BrowserRouter>
   </React.StrictMode>
 );

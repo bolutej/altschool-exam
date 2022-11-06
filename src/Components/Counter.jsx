@@ -1,5 +1,5 @@
 import React from "react";
-// import { Helmet } from "react-helmet-async";
+import { Helmet } from "react-helmet-async";
 import useMyReducer from "./Hooks/useCounter";
 
 
@@ -24,11 +24,11 @@ const Counter = () => {
 
   return (
     <div>
-      {/* <Helmet>
+      <Helmet>
         <title>Counter Page</title>
         <meta name="description" content="counter page"/>
         <link rel="canonical" href="/counter"/>
-      </Helmet> */}
+      </Helmet>
       <div className="main">
         <span>
           <input

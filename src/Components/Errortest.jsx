@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import { Helmet } from "react-helmet-async";
 const Errortest = () => {
   const [error, setError] = useState(null);
   function handleError(e) {
@@ -12,6 +12,11 @@ const Errortest = () => {
   }
   return (
     <div className="test-error">
+      <Helmet>
+        <title>Error page</title>
+        <meta name="description" content="Error page"/>
+        <link rel="canonical" href="/errortest"/>
+      </Helmet>
       <h2>Type in error to test Error boundary</h2>
       <input
         onChange={handleError}
