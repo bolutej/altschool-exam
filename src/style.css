@@ -1,0 +1,95 @@
+
+body {
+  background-color: #EDEBED;
+}
+.nav {
+  padding: 50px 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 900;
+}
+.main-nav {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.nav:hover {
+  color: rgb(79, 79, 194);
+}
+.main {
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 50px 40rem;
+  padding: 50px 10px;
+  
+}
+.operations {
+  display: flex;
+  margin-top: 20px;
+}
+.increment {
+  background-color: green;
+  font-size: 1.5rem;
+  border: 0;
+  cursor: pointer;
+  margin-left: 20px;
+  padding: 4px 14px;
+  color: white;
+
+}
+.reset {
+  padding: 13px 25px 9px 25px;
+  border: 0;
+  background-color: #EDEBED;
+  cursor: pointer;
+}
+.decrement {
+  background-color: red;
+  font-size: 1.5rem;
+  border: 0;
+  cursor: pointer;
+  margin-right: 20px;
+  padding: 4px 13px;
+  color: white;
+}
+input[type=tel] {
+  width: 5rem;
+  font-size: 3rem;
+  text-align: center;
+  border-radius: 5px;
+  background-color: white;
+  border: 0;
+}
+.link-to {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+.link-to:hover {
+  color: rgb(102, 105, 208);
+}
+.click {
+  padding-top: 20%;
+  font-size: 30px;
+  font-weight: bold;
+}
+.test-error {
+  padding-top: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.error-input {
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  border: 0;
+  border-radius: 5px;
+}
