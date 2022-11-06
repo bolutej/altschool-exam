@@ -1,0 +1,3 @@
+https://bolus-altschool-exam-counter-app.netlify.app/
+https://bolus-altschool-exam-counter-app.netlify.app/counter
+https://bolus-altschool-exam-counter-app.netlify.app/errortest
