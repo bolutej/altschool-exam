@@ -1,7 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
 import useMyReducer from "./Hooks/useCounter";
-
+import { GrRefresh } from 'react-icons/gr'
 
 function reducer(state, action) {
   switch (action.type) {
@@ -30,6 +30,7 @@ const Counter = () => {
         <link rel="canonical" href="/counter"/>
       </Helmet>
       <div className="main">
+        <h1>Counter App</h1>
         <span>
           <input
             type="tel"
@@ -40,12 +41,12 @@ const Counter = () => {
           />
         </span>
 
-        <div className="">
+        <div className="counter">
           <button className="decrement" onClick={decrement}>
             -
           </button>
           <button className="reset" onClick={reset}>
-            Reset
+          <GrRefresh />
           </button>
           <button className="increment" onClick={increment}>
             +
